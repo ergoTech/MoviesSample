@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Movie card -->
+    <dimen name="card_movie_corner_radius">0dp</dimen>
+    <dimen name="card_movie_elevation">4dp</dimen>
+    <dimen name="card_movie_margin">6dp</dimen>
+
+    <!-- Movies screen -->
+    <dimen name="item_list_space">8dp</dimen>
+    <dimen name="item_movie_height">250dp</dimen>
+    <dimen name="item_movie_width">168dp</dimen>
+
+    <!-- Details screen -->
+    <dimen name="details_poster_height">220dp</dimen>
+    <dimen name="details_poster_width">146dp</dimen>
+
+</resources>

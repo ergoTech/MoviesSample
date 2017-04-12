@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ffffff</color>
+    <color name="colorPrimaryDark">#bfbfbf</color>
+    <color name="colorAccent">#ff4081</color>
+
+    <color name="imageLoadingPlaceholder">#9f9e9e</color>
+    <color name="imageLoadingError">#f07c7c</color>
+
+    <color name="recyclerViewBackground">#F5F7FD</color>
+    <color name="titleTextColor">#8f8f8f</color>
+
+    <color name="filterColor">#80000000</color>
+    <color name="dividerColor">#afafaf</color>
+</resources>

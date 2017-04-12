@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Movies screen -->
+    <dimen name="item_movie_height">380dp</dimen>
+    <dimen name="item_movie_width">254dp</dimen>
+</resources>

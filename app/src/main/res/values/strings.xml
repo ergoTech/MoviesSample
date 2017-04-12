@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MoviesSample</string>
+
+    <!-- Movies Screen -->
+    <string name="movies_screen_name">Latest Movies</string>
+
+    <!-- Details Screen -->
+    <string name="details_score">Score:</string>
+    <string name="details_rating">Rating:</string>
+    <string name="details_release_date">Release Date:</string>
+</resources>
