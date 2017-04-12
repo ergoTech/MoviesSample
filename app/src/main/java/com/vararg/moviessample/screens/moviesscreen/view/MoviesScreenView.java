@@ -9,6 +9,7 @@ import android.support.v7.widget.Toolbar;
 import android.util.AttributeSet;
 import android.util.Log;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.vararg.moviessample.R;
 import com.vararg.moviessample.screens.moviesscreen.domain.MovieViewModel;
@@ -72,12 +73,11 @@ public class MoviesScreenView extends ConstraintLayout implements MovieScreenCal
 
     @Override
     public void showError() {
-
+        Toast.makeText(getContext(), R.string.error_message, Toast.LENGTH_SHORT).show();
     }
 
     @Override
     public void onMoviesReceived(Collection<MovieViewModel> movies) {
-        Log.d("HIHO", "Data received " + movies.size());
         moviesAdapter.setMovies(movies);
     }
 

@@ -3,6 +3,7 @@
 
     <!-- Movies Screen -->
     <string name="movies_screen_name">Latest Movies</string>
+    <string name="error_message">Error while loading, please check internet connection</string>
 
     <!-- Details Screen -->
     <string name="details_score">Score:</string>

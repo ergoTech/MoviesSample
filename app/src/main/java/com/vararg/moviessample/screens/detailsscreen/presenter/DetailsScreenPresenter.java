@@ -40,7 +40,6 @@ public class DetailsScreenPresenter {
 
     protected void onTakeView(DetailsScreenCallbacks view) {
         if (cachedMovie != null) {
-            Log.d("HIHO", "movie = " + cachedMovie);
             view.onMovieReceived(cachedMovie);
         }
     }

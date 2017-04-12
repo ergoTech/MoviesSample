@@ -50,8 +50,9 @@ public class MoviesScreenPresenter {
 
     protected void onTakeView(MovieScreenCallbacks view) {
         if (cachedMovies != null) {
-            Log.d("HIHO", "movies = " + cachedMovies.size());
             view.onMoviesReceived(cachedMovies);
+        } else {
+            fetchStartData();
         }
     }
 
@@ -101,8 +102,6 @@ public class MoviesScreenPresenter {
                     view.hideProgress();
                     onError("Error while downloading data", throwable);
                 }, requestPage);
-
-        Log.d("HIHO", "page = " + requestPage);
     }
 
     private void onError(String string, Throwable throwable) {
